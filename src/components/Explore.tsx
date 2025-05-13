@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Search } from 'lucide-react';
+import { Search, Heart, MessageSquare } from 'lucide-react';
 import { Input } from './ui/input';
 
 const mockPhotos = [
