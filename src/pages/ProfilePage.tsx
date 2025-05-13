@@ -1,17 +1,17 @@
 
 import React from 'react';
-import Feed from '../components/Feed';
+import Profile from '../components/Profile';
 import Header from '../components/Header';
 import MainNavigation from '../components/MainNavigation';
 
-const Index = () => {
+const ProfilePage = () => {
   return (
     <div className="min-h-screen bg-instagram-verylightgray pb-14 md:pb-0">
       <Header />
-      <Feed />
+      <Profile />
       <MainNavigation />
     </div>
   );
 };
 
-export default Index;
+export default ProfilePage;
